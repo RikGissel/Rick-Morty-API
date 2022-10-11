@@ -1,0 +1,148 @@
+body {
+    display: grid;
+    background-color: #043f47;
+    font-family: "Fira Code";
+    background-image: url(https://wallpapershdnow.com/images/tv-shows/animation/rick-and-morty/rick-and-morty-background-35.jpg);
+    background-size: cover;
+}
+
+#api-data {
+    margin: 0 auto;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    font-weight: bold;
+    color: #35e3a2;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#overview {
+    background-image: linear-gradient(to right, rgb(22, 199, 75), rgb(37, 102, 221));
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2.5rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Listing {
+    width: 15%;
+    text-align: center;
+    height: 35px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: transparent;
+    background-color: #002128;
+    color: white;
+    text-transform: uppercase;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+    background-color: #0871fb;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: transparent;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    background-color: #fb3908;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: transparent;
+}
+
+#left:hover {
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#right:hover {
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#left,
+#right {
+    transition: 1s ease;
+}
+
+.card-container {
+    display: grid;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #002128;
+    border-radius: 15px;
+    width: 400px;
+    margin: 20px;
+    transform: translateX(15%);
+}
+
+.card-container:hover {
+    box-shadow: 10px 10px 10px #000;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.card-item-txt {
+    text-align: center;
+    color: rgb(30, 36, 94);
+    border: #08fb96 solid 1px;
+    background-color: #08fb96;
+    padding: 10px 5px;
+    width: 175px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.card-item {
+    width: 40%;
+    border-radius: 25%;
+    margin-left: 6.5rem;
+}
+
+ul {
+    list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
